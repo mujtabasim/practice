@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      border: 2px solid #333;
+      padding: 20px;
+    }
+    .po{
+        border: 2px solid #333;
+
+        margin-bottom: 20px;
+        max-height: 150px;
+    }
+
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+
+    .logo {
+      border: 1px solid #333;
+      width: 80px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+  flex: 1;
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      border: 1px solid #333;
+      padding: 4px 10px;
+      text-decoration: none;
+      font-size: 15px;
+      color: black;
+      
+    }
+
+    .intro {
+      border: 2px solid #333;
+      text-align: center;
+      padding: 50px;
+      margin-bottom: 20px;
+    }
+
+    .images {
+      display: flex;
+      gap: 20px;
+    }
+
+    .image-box {
+      flex: 1;
+      border: 2px solid #333;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+<div class="po">
+    <header>
+
+      <div class="logo">Logo</div>
+      <div class="title">TITLE
+  
+ 
+    <nav>
+      <a href="#">NAV 1</a>
+      <a href="#">NAV 2</a>
+      <a href="#">NAV 3</a>
+      <a href="#">NAV 4</a>
+    </nav>
+    </div>
+    </header>
+    </div>
+ 
+    <div class="intro">
+      <p><strong>I'm a photographer</strong></p>
+      <p>Short description about yourself or your work goes here.</p>
+    </div>
+
+    <div class="images">
+      <div class="image-box">IMAGE 1</div>
+      <div class="image-box">IMAGE 2</div>
+    </div>
+
+  </div>
+</body>
+</html>
